@@ -6,10 +6,10 @@ namespace SyncTask.api.Data
 {
     public class AppDbContext : DbContext
     {
-        public DbSet<WorkTask> Tareas { get; set; }
-        public DbSet<Project> Proyectos { get; set; }
-        public DbSet<User> Usuarios { get; set; }
-        public DbSet<WorkTaskHour> TareasHoras { get; set; }
+        public DbSet<WorkTask> Tasks { get; set; }
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<WorkTaskHour> TaskHours { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
