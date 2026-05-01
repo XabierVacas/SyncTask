@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SyncTask.api.Models
+﻿namespace SyncTask.api.Models
 {
     public class WorkTask
     {

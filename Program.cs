@@ -1,6 +1,4 @@
-﻿using System;
-using SyncTask.api.Models;
-using SyncTask.api.Data;
+﻿using SyncTask.api.Data;
 
 using (var db = new AppDbContext())
 {
