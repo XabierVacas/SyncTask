@@ -427,3 +427,28 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# NuGet packages
+*.nupkg
+
+# NuGet symbol packages
+*.snupkg
+
+# NuGet package lock file
+*.nupkg.lock.json
+
+# Visual Studio Code extensions
+*.vsix
+
+# NuGet
+# Visual Studio Code extensions metadata
+*.vsixmanifest
+
+#configuration files
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+#ignore itself
+.gitignore
+/.gitignore
