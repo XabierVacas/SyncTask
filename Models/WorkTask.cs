@@ -11,9 +11,10 @@ namespace SyncTask.api.Models
         public string Description { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime DueDate { get; set; }
-        public string Status { get; set; }
+        public WorkTaskStatus Status { get; set; }
 
-        
+
+
         // Foreign keys
         public int ProjectId { get; set; }
         public int UserId { get; set; }
