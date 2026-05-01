@@ -1,0 +1,226 @@
+[
+  {
+    "Id": 2,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion Test",
+    "Fecha_creacion": "2026-04-29T19:10:35.4978886+02:00",
+    "Fecha_vencimiento": "2026-05-06T19:10:35.4977954+02:00",
+    "Estado": true
+  },
+  {
+    "Id": 3,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:10:35.5424422+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:10:35.5424388+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 4,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:10:35.5488538+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:10:35.5488525+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 5,
+    "Nombre": "Tarea 1",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.7843617+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.7842554+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 6,
+    "Nombre": "Tarea 2",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.8130717+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.8130674+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 7,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion Test",
+    "Fecha_creacion": "2026-04-29T19:17:57.8315891+02:00",
+    "Fecha_vencimiento": "2026-04-29T20:17:57.8315853+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 8,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion \u00DAnica 123",
+    "Fecha_creacion": "2026-04-29T19:17:57.8332377+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.8332361+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 9,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.8539568+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.8539553+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 10,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.8622417+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.8622404+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 11,
+    "Nombre": "Tarea 1",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.8886857+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.8886844+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 12,
+    "Nombre": "Tarea 2",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.889389+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.8893825+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 13,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.9025388+02:00",
+    "Fecha_vencimiento": "2027-06-15T00:00:00",
+    "Estado": false
+  },
+  {
+    "Id": 14,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.9116787+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.9116773+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 15,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.9185079+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.9185064+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 16,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion Test",
+    "Fecha_creacion": "2026-04-29T19:17:57.9256367+02:00",
+    "Fecha_vencimiento": "2026-05-06T19:17:57.9256353+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 17,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion Test",
+    "Fecha_creacion": "2026-04-29T19:17:57.9477807+02:00",
+    "Fecha_vencimiento": "2026-05-06T19:17:57.947778+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 18,
+    "Nombre": "Nombre \u00DAnico 123",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.964519+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.9645175+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 19,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.9708536+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.9708509+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 20,
+    "Nombre": "Nombre Especifico",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.9782102+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.9782089+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 21,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.9849213+02:00",
+    "Fecha_vencimiento": "2027-06-15T00:00:00",
+    "Estado": false
+  },
+  {
+    "Id": 22,
+    "Nombre": "Tarea 1",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:57.9920002+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:57.9919985+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 23,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:58.0060115+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:58.0060092+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 24,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:58.0201094+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:58.0201084+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 25,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:58.0269543+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:58.0269528+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 26,
+    "Nombre": "Primera Tarea",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:58.0348096+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:58.0348075+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 27,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion Especifica",
+    "Fecha_creacion": "2026-04-29T19:17:58.0424644+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:58.0424625+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 28,
+    "Nombre": "Tarea Test",
+    "Descripcion": "Descripcion",
+    "Fecha_creacion": "2026-04-29T19:17:58.054869+02:00",
+    "Fecha_vencimiento": "2026-04-30T19:17:58.0548672+02:00",
+    "Estado": false
+  },
+  {
+    "Id": 29,
+    "Nombre": "TEST",
+    "Descripcion": "TEST",
+    "Fecha_creacion": "2026-04-29T21:35:06.4906587+02:00",
+    "Fecha_vencimiento": "2026-10-19T00:00:00",
+    "Estado": false
+  }
+]
