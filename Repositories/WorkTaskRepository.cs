@@ -13,48 +13,93 @@ namespace SyncTask.api.Repositories
         {
             _context = context;
         }
+
         public string Add(WorkTask workTask)
         {
-            workTask.CreationDate = DateTime.Now;
-            _context.Tasks.Add(workTask);
-            _context.SaveChanges();
-            return "Task added";
+            try
+            {
+                workTask.CreationDate = DateTime.Now;
+                _context.Tasks.Add(workTask);
+                _context.SaveChanges();
+                return "Task added";
+            }
+            catch (Exception ex)
+            {
+                return $"Error: {ex.Message}";
+            }
         }
 
         public string Delete(int id)
         {
-            //find task in db
-            WorkTask task = _context.Tasks.Find(id);
+            try {
+                //find task in db
+                WorkTask task = _context.Tasks.Find(id);
 
-            //task not found
-            if (task == null) return "Task not found";
+                //task not found
+                if (task == null) return "Task not found";
 
-            //delete task
-            _context.Tasks.Remove(task);
-            _context.SaveChanges();
-            return $"Task {task.Id} deleted";
+                //delete task
+                _context.Tasks.Remove(task);
+                _context.SaveChanges();
+                return $"Task {task.Id} deleted";
+            }
+            catch (Exception ex)
+            {
+                return $"Error: {ex.Message}";
+            }
         }
 
         public WorkTask GetById(int id)
         {
-            return _context.Tasks
+            try
+            {
+                return _context.Tasks
                 .Include(t => t.Project)   // Also load the related Project
                 .Include(t => t.User)      // Also load the related User
                 .FirstOrDefault(t => t.Id == id);  // Get first match or null
+            }catch (Exception ex)
+            {
+                return null;
+            }
         }
 
-        public List<WorkTask> GetAll() => _context.Tasks.Include(t => t.Project).Include(t => t.User).ToList();  // Execute the query and return a List
+        public List<WorkTask> GetAll()
+        {
+            try
+            {
+                return _context.Tasks.Include(t => t.Project).Include(t => t.User).ToList();  // Execute the query and return a List
+            }catch (Exception ex)
+            {
+                return null;
+            }
+        }
 
         public bool UpdateStatus(int id, WorkTaskStatus status)
         {
-            WorkTask task = this.GetById(id);
+            try
+            {
+                WorkTask task = this.GetById(id);
 
-            if (task == null) return false;
-            task.Status = status;
-            _context.SaveChanges();
-            return true;
+                if (task == null) return false;
+                task.Status = status;
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
-        public List<WorkTaskHour> GetTaskHoursByTask(int taskId) => _context.TaskHours.Where(th => th.TaskId == taskId).ToList();
 
+        public List<WorkTaskHour> GetTaskHoursByTask(int taskId)
+        {
+            try
+            {
+                return _context.TaskHours.Where(th => th.TaskId == taskId).ToList();
+            }catch (Exception ex)
+            {
+                return null;
+            }
+        }
     }
 }
