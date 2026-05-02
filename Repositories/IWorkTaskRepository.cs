@@ -12,5 +12,7 @@ namespace SyncTask.api.Repositories
 
         // Extra
         bool UpdateStatus(int id, WorkTaskStatus status);
+
+        List<WorkTaskHour> GetTaskHoursByTask(int taskId);
     }
 }

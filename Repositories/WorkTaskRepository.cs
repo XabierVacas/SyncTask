@@ -43,13 +43,7 @@ namespace SyncTask.api.Repositories
                 .FirstOrDefault(t => t.Id == id);  // Get first match or null
         }
 
-        public List<WorkTask> GetAll()
-        {
-            return _context.Tasks
-             .Include(t => t.Project)
-             .Include(t => t.User)
-             .ToList();  // Execute the query and return a List
-        }
+        public List<WorkTask> GetAll() => _context.Tasks.Include(t => t.Project).Include(t => t.User).ToList();  // Execute the query and return a List
 
         public bool UpdateStatus(int id, WorkTaskStatus status)
         {
@@ -60,5 +54,7 @@ namespace SyncTask.api.Repositories
             _context.SaveChanges();
             return true;
         }
+        public List<WorkTaskHour> GetTaskHoursByTask(int taskId) => _context.TaskHours.Where(th => th.TaskId == taskId).ToList();
+
     }
 }
