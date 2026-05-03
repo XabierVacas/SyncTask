@@ -95,7 +95,11 @@ namespace SyncTask.api.Repositories
         {
             try
             {
-                return _context.TaskHours.Where(th => th.TaskId == taskId).ToList();
+                return _context.TaskHours
+                    .Include(th => th.Task)
+                    .Include(th => th.User)
+                    .Where(th => th.TaskId == taskId)
+                    .ToList();
             }catch (Exception ex)
             {
                 return null;
